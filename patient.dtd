@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT patients (patient*)>
+<!ELEMENT patient (id, full_name, DOB, gender, service_date, procedure_code, primary_diagnosis)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT full_name (#PCDATA)>
+<!ELEMENT DOB (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT service_date (#PCDATA)>
+<!ELEMENT procedure_code (#PCDATA)>
+<!ELEMENT primary_diagnosis (#PCDATA)>
